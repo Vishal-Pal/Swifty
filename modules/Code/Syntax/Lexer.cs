@@ -71,6 +71,8 @@ namespace swifty.Code.Syntaxt {
             switch(kind) {
                 case SyntaxKind.IntKeyword: return new SyntaxToken(kind, start, text, null, typeof(int));
                 case SyntaxKind.BoolKeyword: return new SyntaxToken(kind, start, text, null, typeof(bool));
+                case SyntaxKind.FloatKeyword: return new SyntaxToken(kind, start, text, null, typeof(float));
+                case SyntaxKind.CharKeyword: return new SyntaxToken(kind, start, text, null, typeof(char));
                 default: return new SyntaxToken(kind, start, text, null);
             }
         }
