@@ -34,8 +34,6 @@ namespace swifty.Code.Syntaxt {
         FalseKeyword,
         IntKeyword,
         BoolKeyword,
-        CharKeyword,
-        FloatKeyword,
         ConstKeyword,
         IfKeyword,
         ElseKeyword,
